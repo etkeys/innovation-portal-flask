@@ -5,3 +5,4 @@ JavaTestServer/
 .gradle/
 src/mock.php
 *.log
+**/venv*/
