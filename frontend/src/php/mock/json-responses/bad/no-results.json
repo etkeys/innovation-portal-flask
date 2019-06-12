@@ -1,0 +1,7 @@
+{
+    "response":"backend-exception",
+    "count":0,
+    "exception-details":{
+        "message":"This is test of a backend exception"
+    }
+}

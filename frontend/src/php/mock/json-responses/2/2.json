@@ -1,0 +1,32 @@
+{ 
+        "response":"OK", 
+        "project_id":2, 
+        "project_name": "Innovation Portal", 
+        "project_description": "Collaborate, innovate, and show off your results!", 
+        "image_url": "./resources/images/411golds18.jpg", 
+        "project_members":{ 
+            "creator":[
+                {"email":"tkennedy@cs.odu.edu", 
+                "display-name":"Keys"}
+            ], 
+            "participants":[ 
+                {"email":"email1", 
+                "display-name":"displayname1"}, 
+                {"email":"email2", 
+                "display-name":"displayname2"}
+            ], 
+            "moderators":[ 
+                {"email":"<email>", 
+                "display-name":"<displayname>"} 
+            ] 
+        },
+        "project_artifacts":[ 
+            {"artifact-name": "Demo Video", 
+             "artifact-location":"artifact_location"}
+        ], 
+        "project_collabs":[ 
+             {"collab-name":"Collab 1", 
+             "collab-uri":"collab_uri"} 
+        ], 
+        "project_tags":["test_project","computer_science"] 
+}

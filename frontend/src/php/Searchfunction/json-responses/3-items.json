@@ -1,0 +1,23 @@
+{
+	"response": "OK",
+	"count": 3,
+	"project0": {
+		"project_id": 1,
+		"project_name": "Test project #1",
+		"project_description": "This is a project description #1.",
+		"thumbnailloc": "computer-science"
+	},
+	"project1": {
+		"project_id": 2,
+		"project_name": "Test Project #2",
+		"project_description": "This is another project description!",
+		"thumbnailloc": "computer-engineering"
+	},
+	"project2": {
+		"project_id": 3,
+		"project_name": "Test Project #3",
+		"project_description": "Hooray, another project description!",
+		"thumbnailloc": "computer-science"
+		
+	}
+}

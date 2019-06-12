@@ -1,0 +1,4 @@
+ComposerBin/
+vendor/
+*.lock
+phpunit.run

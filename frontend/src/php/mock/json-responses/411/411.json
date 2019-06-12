@@ -1,0 +1,16 @@
+{ 
+        "response":"OK", 
+        "project_id":411, 
+        "project_name": "Innovation Portal", 
+        "project_description": "Collaborate, innovate, and show off your results!", 
+        "image_url": "null", 
+        "project_members":{ 
+            "creator":{ 
+                "email":"ekeys@cs.odu.edu", 
+                "display-name":"Keys" 
+            }
+        },
+        "project_artifacts":[],
+        "project_collabs":[],
+        "project_tags":[]
+}

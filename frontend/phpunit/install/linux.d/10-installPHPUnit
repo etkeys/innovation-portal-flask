@@ -1,0 +1,19 @@
+#!/bin/bash
+
+
+cd "$PHPUNIT_COMPOSER_DIR"
+
+wget -nv -O phpunit https://phar.phpunit.de/phpunit-7.phar
+chmod +x phpunit
+./phpunit --version
+
+./composer.phar config extra.IP-build-root-src --unset
+./composer.phar config extra.IP-build-root-src "$IP_BUILD_ROOT/src/"
+
+./composer.phar require --no-progress --dev phpunit/phpunit ^7
+
+mv vendor "$PHPUNIT_DIR"
+"$PHPUNIT_DIR"/vendor/bin/phpunit --version
+
+cd "$IP_BUILD_ROOT"
+

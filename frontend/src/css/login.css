@@ -1,0 +1,30 @@
+.subcontent {
+    width: 100%;
+    overflow: auto;
+}
+
+.user-login {
+    float: left;
+    width: 50%;
+    min-height: 40vh;
+    border: solid 1px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 2vh;
+}
+
+div.user-login{
+    text-align: center;
+}
+
+.user-login header{
+    margin-bottom: 4em;
+    text-align: center;
+}
+.user-login input {
+    clear: left;
+}
+
+.message-fields-required{
+    font-style: italic;
+}

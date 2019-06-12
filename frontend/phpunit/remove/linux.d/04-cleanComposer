@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -f "$PHPUNIT_DIR"/*.lock
+rm -rf "$PHPUNIT_COMPOSER_DIR"

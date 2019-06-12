@@ -1,0 +1,8 @@
+{ 
+        "response":"backend-exception", 
+        "exception-details":{
+                "message":"Mock backend exception",
+                "number": "Over 9000",
+                "stack-trace": "{0} current place \n {1} previous place \n {2} previous previous place"
+        }
+}

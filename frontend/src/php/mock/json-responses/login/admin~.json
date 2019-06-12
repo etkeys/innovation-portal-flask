@@ -1,0 +1,11 @@
+{
+    "response":"OK",
+    "userdef":{
+        "userdisplayname":"Admin Mock",
+        "useremail":"Admin.Mock.User@innovationportal.cs.odu.edu",
+        "userid":"u0005m",
+        "permissions": {
+            "specialUserFlag": "administrator"
+        }
+    }
+}

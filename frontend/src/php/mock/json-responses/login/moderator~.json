@@ -1,0 +1,12 @@
+{
+    "response":"OK",
+    "userdef":{
+        "userdisplayname":"Moderator Mock",
+        "useremail":"Moderator.Mock.User@innovationportal.cs.odu.edu",
+        "userid":"u0004m",
+        "permissions": {
+            "moderator":[1,2],
+            "specialUserFlag":"moderator"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+localonly/
+src/php/ip-php-custom.ini
+*.port
+JavaTestServer/
+.gradle/
+src/mock.php
+*.log

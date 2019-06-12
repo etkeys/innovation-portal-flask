@@ -1,0 +1,11 @@
+{
+    "response":"OK",
+    "userdef":{
+        "userdisplayname":"Tester Mock",
+        "useremail":"Tester.Mock.User@innovationportal.cs.odu.edu",
+        "userid":"u0006m",
+        "permissions": {
+            "specialUserFlag":"tester"
+        }
+    }
+}

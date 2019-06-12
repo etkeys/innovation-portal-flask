@@ -1,0 +1,268 @@
+.maincontent h1 {
+    padding: 0;
+    text-align: center;
+}
+
+.maincontent h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.tag {
+    border: 1px solid white;
+    background-color: #263238;
+    margin: 0px 6px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    line-height: 2.2em;
+    color: white;
+    border-radius: 70px;
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.button-upload {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-upload:hover {
+    background-color: green;
+    color: white;
+}
+
+.button-modify {
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-modify:hover {
+    background-color: blue;
+    color: white;
+}
+
+.button-delete {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-delete:hover {
+    background-color: red;
+    color: white;
+}
+
+.button-metadata {
+    background-color: white;
+    color: black;
+    border: 2px solid orange;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-metadata:hover {
+    background-color: orange;
+    color: white;
+}
+
+.button-privacy {
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-privacy:hover {
+    background-color: gray;
+    color: white;
+}
+
+.button-moderator {
+    background-color: white;
+    color: black;
+    border: 2px solid purple;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-moderator:hover {
+    background-color: purple;
+    color: white;
+}
+
+.button-contribute {
+    background-color: white;
+    color: black;
+    border: 2px solid brown;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-contribute:hover {
+    background-color: brown;
+    color: white;
+}
+
+form, button {
+    float: left;
+}
+
+button:disabled {
+    background-color: lightgray;
+    border-color: lightgray;
+    color: gray;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.view-header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img {
+    float: left;
+    width: 50%;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+div.view-header h1{
+    padding-left: 0;
+}
+
+div.view-header p {
+    overflow: hidden;
+}
+
+div.view-header p.description{
+    clear: all;
+}
+
+ul.view-list-tags{
+    list-style-type: none;
+}
+
+ul.view-list-tags li.view-tag{
+    background-color: plum;
+    float: left;
+    margin: 5px;
+}
+
+.maincontent hr.horz-content-hr{
+    clear:all;
+}
+
+.project-info {
+    padding: 3vh;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 50%;
+    float: left;
+}
+
+.project {
+    padding: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.artifacts {
+    padding: 3vh;
+}
+
+.artifact-list {
+    margin-bottom: 3vh;
+}
+
+.artifact-list h2 {
+    margin-bottom: 1vh;
+}

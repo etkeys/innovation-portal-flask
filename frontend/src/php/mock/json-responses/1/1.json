@@ -1,0 +1,34 @@
+{ 
+        "response":"OK", 
+        "project_id":1, 
+        "project_name": "Traffic Wizard", 
+        "project_description": "Never be stuck in traffic again!", 
+        "image_url": "./resources/images/411blackf14.jpg", 
+        "project_members":{ 
+            "creator":[
+                {"email":"tkennedy@cs.odu.edu", 
+                "display-name":"Kennedy"}
+            ], 
+            "participants":[ 
+                {"email":"email1", 
+                "display-name":"displayname1"}, 
+                {"email":"email2", 
+                "display-name":"displayname2"}
+            ], 
+            "moderators":[ 
+                {"email":"brunelle@cs.odu.edu", 
+                "display-name":"Janet Brunelle"} 
+            ] 
+        },
+        "project_artifacts":[ 
+            {"artifact-name": "Demo Video", 
+             "artifact-location":"https://www.youtube.com/watch?v=PvnlpPWAcZc"}
+        ], 
+        "project_collabs":[ 
+             {"collab-name":"Github", 
+             "collab-uri":"http://github.com"},
+            {"collab-name":"Slack", 
+             "collab-uri":"http://slack.com"} 
+        ], 
+        "project_tags":["test_project","computer_science"] 
+}

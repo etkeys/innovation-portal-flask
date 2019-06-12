@@ -1,0 +1,8 @@
+#!/bin/bash
+
+RUN_SCRIPT="$PHPUNIT_DIR/phpunit.run"
+
+echo "$PHPUNIT_DIR"/vendor/bin/phpunit --configuration "$PHPUNIT_DIR"/phpunit-config.xml > "$PHPUNIT_DIR"/phpunit.run
+chmod u+x "$RUN_SCRIPT"
+
+echo "You can run PHPUnit tests by running script ${RUN_SCRIPT}!"

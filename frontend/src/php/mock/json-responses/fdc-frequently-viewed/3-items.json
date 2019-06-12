@@ -1,0 +1,23 @@
+{
+    "response":"OK",
+    "count":3,
+    "project1":{
+        "project_id": 2,
+        "viewcount": 40,
+        "project_name": "Test Project #2",
+        "project_description" : "This is another project description!",
+        "image_url" : "resources/images/comingsoon_bg.jpg"},
+    "project2":{
+            "project_id": 3,
+            "viewcount": 4,
+            "project_name" : "Test Project #3",
+            "project_description" : "Hooray, another project description!",
+            "image_url" : "resources/images/building.jpg"
+    },
+    "project0": {
+        "project_id": 1,
+        "viewcount": 200,
+        "project_name": "Test project #1",
+        "project_description": "This is a project description #1.",
+        "image_url": "resources/images/plant.jpg"}
+}

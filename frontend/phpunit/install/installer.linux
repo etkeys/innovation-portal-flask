@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export IP_BUILD_ROOT="$(pwd)"
+
+export PHPUNIT_DIR="$(pwd)/phpunit"
+export PHPUNIT_COMPOSER_DIR="$PHPUNIT_DIR/ComposerBin"
+
+export COMPOSER="$PHPUNIT_DIR/IP-composer.json"
+
+run-parts --exit-on-error --verbose "$PHPUNIT_DIR/install/linux.d"

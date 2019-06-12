@@ -1,0 +1,10 @@
+{
+    "response":"OK",
+    "count":3,
+    "project0": {
+        "project_id": 1,
+        "project_name": "Traffic",
+        "project_description": "The traffic project",
+        "image_url": "resources/images/comingsoon_bg.jpg"
+    }
+}

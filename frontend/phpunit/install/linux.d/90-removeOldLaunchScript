@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rm -f "$PHPUNIT_DIR"/phpunit.run

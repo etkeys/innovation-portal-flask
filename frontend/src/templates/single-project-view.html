@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="view-header">
+                <h1>{{project_name}}</h1>
+            <div class="img">
+                <img src="{{image_url}}" alt="image">
+            </div>
+            <div class="project-info">
+                <h2>Project Members</h2>
+                <p>
+                    <strong>Creator: </strong>{{project_creator}}
+                </p>
+                <p>
+                    <strong>Moderators: </strong>{{project_moderators}}
+                </p>
+                <p>
+                    <strong>Participants: </strong>{{project_members}}
+                </p>
+            </div>
+            <div class="project-info">
+                <p class="description">
+                    <strong>Description: </strong>{{project_description}}
+                </p>
+                <p>{{project_tags}}</p>
+                <div class='artifact-list'>
+                <strong><h2>Project Artifacts</h2></strong>
+                {{project_artifacts}}
+                </div>
+                
