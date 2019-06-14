@@ -1,0 +1,91 @@
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+h1 {
+    margin-top: 4vh;
+    width: 100%;
+    text-align: center;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding-left: 1em;
+    padding-right: 1em;
+    overflow: visible;
+}
+
+.maincontent {
+}
+
+.project-title {
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 3vh;
+    text-align: center;
+    color: #ffffff;
+    background-color: #263238;
+    font-size: 1.5vw;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.project-title svg {
+    width: 100%;
+}
+
+.project-description {
+    font-size: 2.5vh;
+}
+
+/* Responsive layout - makes a 3 column-layout instead of four columns */
+@media screen and (max-width: 1400px) {
+    .column {
+        -ms-flex: 33%;
+        flex: 33%;
+        max-width: 33%;
+    }
+    
+    .project-title {
+        font-size: 2.3vw;
+    }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    
+    .project-title {
+        font-size: 3.6vw;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+    .project-title {
+        font-size: 10vw;
+    }
+}

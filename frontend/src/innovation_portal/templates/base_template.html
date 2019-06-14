@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" type="text/css"
+            href="{{ url_for('static',filename='css/global.css') }}" />
+        <link rel="stylesheet" type="text/css"
+            href="{{ url_for('static',filename='css/banner-nav.css') }}" />
+        <link rel="stylesheet" type="text/css"
+            href="{{ url_for('static',filename='css/landing.css') }}" />
+        <link rel="stylesheet" type="text/css"
+            href="{{ url_for('static',filename='css/projectadmin.css') }}" />
+
+        <meta charset="UTF-8"/>
+        
+        <title>Innovation Portal</title>
+    </head>
+    <body>
+        <header id="banner-space">
+            <h1>Innovation Portal</h1>
+            <h2>... It just has to work.</h2>
+            <hr />
+        </header>
+
+        <!-- Navbar -->
+        <ul class="navbar">
+            <li class="navitem"><a href="index.php?content=featured">Home</a></li>
+            <li class="navitem dropdown">
+                    <a class="dropdown-btn" href="javascript:void(0)">Browse</a>
+                    <div class="dropdown-content">
+                        <a href="index.php?content=featured">Featured</a>
+                        <a href="index.php?content=frequently-viewed">Frequently Viewed</a>
+                        <a href="index.php?content=newlyadded">Newly Added</a>
+                        <!--
+                        <?php
+                            if ($specialUserFlag === "moderator"){
+                                echo "<a href=\"index.php?content=requesting-moderator\">Projects requesting moderators</a>";
+                            }
+                        ?>
+                        -->
+                    </div>
+            </li>
+            <!--
+            <?php
+                if ($isRegistered){
+                    echo "<li class=\"navitem dropdown\">
+                                <a class=\"dropdown-btn\" href=\"index.php?content=my-project\">My Projects</a>
+                                <div class=\"dropdown-content\">
+                                    <a href=\"createproject.php?create=true\">Create Project</a>
+                                </div>
+                            </li>";
+
+                if ($specialUserFlag === "administrator"){
+                    echo "<li class='navitem dropdown'>";
+                    echo  "<a class='dropdown-btn' href='javascript:void(0)'>Admin Tool</a>";
+                    echo "<div class='dropdown-content'>";
+                    echo "<a href='index.php?content=admin-view-all'>View All Project</a>";
+                    }
+                }
+
+                if ($specialUserFlag === "tester"){
+                    echo "<li class=\"navitem\"><a href=\"#news\">Tester Tools</a></li>";
+                }
+            ?>
+            -->
+            <li class="navitem right-align dropdown">
+                <!--
+                <?php
+                    if ($isRegistered){
+                        echo "
+                    <a class=\"dropdown-btn\" href=\"javascript:void(0)\">" . $_SESSION["userdef"]["userdisplayname"] . "</a>
+                    <div class=\"dropdown-content\">
+                        <a href=\"logout.php\">Logout</a>
+                    </div>";
+                    }else{
+                        echo "<a href=\"login.php?operation=login\">Login | Register</a>";
+                    }
+                ?>
+                -->
+            </li>
+            <li class="navitem right-align searchbar">
+                <form action="./php/simplesearch.php" method="get">
+                    <input type="text" name="query" placeholder="Search keywords ...">
+                    <button type="submit" class="gobutton"><i class="fa fa-search"></i></button>
+                </form>
+            </li>
+        </ul>
+
+
+
+        <!-- Projects -->
+        <h1>Hello, world</h1>
+
+        <!-- Footer -->
+
+    </body>
+</html>

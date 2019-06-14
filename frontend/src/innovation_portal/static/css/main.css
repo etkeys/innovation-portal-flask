@@ -1,0 +1,28 @@
+body,h1 {
+    font-family: "Raleway", sans-serif;
+    text-shadow: 3px 3px #000000;
+}
+
+body, html {height: 100%}
+
+.bgimg {
+    background-image: url('../resources/comingsoon_bg.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.w3-display-middle, .w3-display-topleft {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+}
+    
+.iebanner{
+    display:none;
+    background-color: yellow;
+    text-shadow: none;
+    text-align: center;
+    padding: 5px;
+}

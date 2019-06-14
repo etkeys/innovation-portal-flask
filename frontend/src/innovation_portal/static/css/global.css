@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
+@font-face {
+    font-family: Vitesse-Black;
+    src: url('../resources/fonts/Vitesse-Black.otf') format("opentype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: .05em;
+    font-family: "Open Sans";
+    background-color: #424242;  
+    color: rgba(255,255,255,.7);  
+}
+
+h1 {
+    font-family: "Vitesse-Black";
+    color: rgba(255,255,255,1);
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: "Open Sans";
+    color: rgba(255,255,255,1);  
+}
+
+a {
+    color: #FFFFFFFF;
+}
+
+strong {
+    color: #FFFFFFFF;
+}
+
+.maincontent {
+    margin: auto;
+    margin-top: 2vh;
+    padding-bottom: 4vh;
+    border-radius: 10px;
+    display: block;
+    width: 75%;
+    background-color: #455A64;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.subcontent {
+    padding-top: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 1vh;
+}
+
+div.boxed-message{
+    background-color: #424242;
+    border-style: solid;
+    border-width: 2px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+div.boxed-message .message-type-bad{
+    border-color: red;
+    border-style: inherit;
+}
+div.boxed-message .message-type-good{
+    border-color: limegreen;
+    border-style: inherit;
+}
+
+.card {
+    margin-top: 0vh;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #424242;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background: linear-gradient(180deg, rgba(0,0,0,0.5), rgba(0,0,0,.8));
+    padding: 1em;
+    color: #ffffff;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+}
+
+input, textarea, button {
+    border: none;
+    margin-top: 6px;
+    padding: 6px 10px;
+    font-size: inherit;
+    background-color: #263238; 
+    border: solid;
+    border-width: 1px;
+    border-color: #FFFFFF70;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Responsive layout - decrease whitespace on smaller screens*/
+@media screen and (max-width: 1000px) {
+    .maincontent {
+        display: block;
+        margin-top: 4vh;
+        width: 90%;
+    }
+}

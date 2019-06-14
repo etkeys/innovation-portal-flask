@@ -6,3 +6,5 @@ JavaTestServer/
 src/mock.php
 *.log
 **/venv*/
+**/__pycache__/
+**/XDG_CACHE_HOME/

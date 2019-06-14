@@ -62,11 +62,11 @@ Provide a list of projects that are flagged as "Featured"
 
 ### Request
 
-`Route: /display`
+`Route: /showcase`
 
 ```json
 {
-    "request":"display-featured"
+    "request":"showcase-featured"
 }
 ```
 
@@ -93,11 +93,11 @@ User fills in words (space delimited) into the search box in the main menu bar.
 
 ### Request
 
-`Route: /display`
+`Route: /showcase`
 
 ```json
 {
-    "request":"display-simple-search",
+    "request":"showcase-simple-search",
     "filter": [ "word|tag","word|tag", "word|tag"]
 }
 ```
