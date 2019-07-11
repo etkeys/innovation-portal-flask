@@ -18,19 +18,19 @@
     <body>
         <header id="banner-space">
             <h1>Innovation Portal</h1>
-            <h2>... It just has to work.</h2>
+            <h2>{{ banner_quote }}</h2>
             <hr />
         </header>
 
         <!-- Navbar -->
         <ul class="navbar">
-            <li class="navitem"><a href="index.php?content=featured">Home</a></li>
+            <li class="navitem"><a href="{{ url_for('showcase.navigate') }}">Home</a></li>
             <li class="navitem dropdown">
                     <a class="dropdown-btn" href="javascript:void(0)">Browse</a>
                     <div class="dropdown-content">
-                        <a href="index.php?content=featured">Featured</a>
-                        <a href="index.php?content=frequently-viewed">Frequently Viewed</a>
-                        <a href="index.php?content=newlyadded">Newly Added</a>
+                        <a href="{{ url_for('showcase.navigate', view='featured') }}">Featured</a>
+                        <a href="{{ url_for('showcase.navigate', view='frequently-viewed') }}">Frequently Viewed</a>
+                        <a href="{{ url_for('showcase.navigate', view='newly-added') }}">Newly Added</a>
                         <!--
                         <?php
                             if ($specialUserFlag === "moderator"){
@@ -88,8 +88,10 @@
 
 
 
-        <!-- Projects -->
-        <h1>Hello, world</h1>
+        <!-- Below Nav Bar -->
+        <div class="main-content">
+            {% block content %}{% endblock %}
+        </div>
 
         <!-- Footer -->
 

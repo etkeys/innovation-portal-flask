@@ -36,7 +36,7 @@ strong {
     color: #FFFFFFFF;
 }
 
-.maincontent {
+.main-content {
     margin: auto;
     margin-top: 2vh;
     padding-bottom: 4vh;
@@ -47,7 +47,7 @@ strong {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.subcontent {
+.sub-content {
     padding-top: 3vh;
     padding-left: 2vw;
     padding-right: 2vw;
@@ -140,7 +140,7 @@ button {
 
 /* Responsive layout - decrease whitespace on smaller screens*/
 @media screen and (max-width: 1000px) {
-    .maincontent {
+    .main-content {
         display: block;
         margin-top: 4vh;
         width: 90%;

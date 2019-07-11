@@ -1,1 +1,19 @@
 {% extends "base_template.html" %}
+{% block content %}
+    <div class="row"><h1>{{ content_label }}</h1></div>
+    <div class="row">
+        {% for project in projects %}
+            <div class="column">
+                <div class="card">
+                    <img class="image" src="{{ project.image_url }}" alt="image">
+                    <a href="singleview.php?project_id={{ project.project_id }}">
+                        <div class="card-overlay">
+                            <p class="project-description">{{ project.project_description }}</p>
+                        </div>
+                    </a>
+                </div>
+                <h3 class="project-title">{{ project.project_name }}</h3>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock content %}

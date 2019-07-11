@@ -1,6 +1,6 @@
-from innovation_portal import app
+from innovation_portal import create_app
 
-# TODO Move to somewhere configurable
-app.config['DEFAULT_VIEW'] = "featured"
+app = create_app()
 
-app.run(host='0.0.0.0', port=5000, debug=True)
+if __name__ == '__main__':
+    app.run()
